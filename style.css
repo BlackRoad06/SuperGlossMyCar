@@ -44,34 +44,52 @@
 
 
 .flexContainer1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(195, 211, 226);
-}
-
-.flexContainer1{ 
     display: none;
 }
 
 
-.flexContainer1 > p{
-    font-size: 20px;
-}
-  
 
+.flexContainer1 > *{
+  margin-top: 15px;
+}
+
+
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn{
+  padding: 10px 19px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: px;
+  border: none;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 
 @media only screen and (max-width: 680px){
-    .flexContainer1{
-        display: flex;
-        flex-direction: row;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: rgb(195, 211, 226);    
-        width: 100%;
-    }
+  .flexContainer1{
+      display: flex;
+      flex-direction: row;
+      margin-top: 15px;    
+      bottom: 0;
+
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgb(195, 211, 226);    
+      width: 100%;
+      padding:10px;
+  }
 }
+
+
+
