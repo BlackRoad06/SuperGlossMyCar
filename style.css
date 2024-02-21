@@ -79,17 +79,19 @@
 @media only screen and (max-width: 680px){
   .flexContainer1{
       display: flex;
+      flex-basis: 100%;
       flex-direction: row;
+      position: fixed;
       margin-top: 15px;    
       bottom: 0;
-
+      overflow: hidden;    
       justify-content: space-evenly;
       align-items: center;
-      background-color: rgb(195, 211, 226);    
+      background-color: rgb(195, 211, 226); 
+      -webkit-box-shadow: 0px -4px 3px rgba(92, 126, 156, 100);
+      -moz-box-shadow: 0px -4px 3px  rgba(92, 126, 156, 100);
+      box-shadow: 0px -4px 6px  rgba(92, 126, 156, 100);
       width: 100%;
-      padding:10px;
+      
   }
 }
-
-
-
