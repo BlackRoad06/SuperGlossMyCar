@@ -100,8 +100,7 @@ a { color: inherit }
   width: 30px;
 }
 
-
-#updates{
+.updates > p{
   margin-top: 50px ;
     font-weight: bold;
     color: #132043;
