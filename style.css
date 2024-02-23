@@ -1,5 +1,5 @@
 .navbar-brand{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -13,31 +13,32 @@
 
   .heading{
     justify-content: center;
-    margin-top: 55px;
+    margin-top: 55px;    
   }
 
   .headingTwo{
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 15px;
     text-align: center;
   }
 
   h2{
-    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    font-size: 15px;
   }
+  
 
   h1{
-    font-size: 50px;
     font-weight: bold;
     color: #132043;
     text-align: center;
+    font-size: 24px;
   }
 
   .paragraph{
     text-align: center;
-    font-size:18px;
+    font-size: 15px;
     margin-top: 5px;
   }
 
@@ -50,7 +51,7 @@
 }
 
 .btn{
-  padding: 10px 19px;
+  padding: 15px 24px;
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
   border-radius: px;
   border: none;
@@ -110,7 +111,19 @@ a { color: inherit }
   .mobile-nav {
   display: none;
   }
-    
+
+  
+  h2{
+    font-size: 30px;
+  }
+
+  h1{
+    font-size: 45px;
+  }
+
+  .paragraph{
+    font-size:18px;
+  }
   img{
     width: 65%;
   }
